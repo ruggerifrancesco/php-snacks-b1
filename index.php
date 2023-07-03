@@ -49,8 +49,8 @@ $matches = [
 </head>
 <body>
     <ul>
-        <?php foreach ($variable as $key => $value) {?>
-            # code...
+        <?php foreach ($matches as $key => $match) {?>
+            <li></li>
         <?php } ?>
     </ul>
 </body>
