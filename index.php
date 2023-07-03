@@ -50,7 +50,9 @@ $matches = [
 <body>
     <ul>
         <?php foreach ($matches as $key => $match) {?>
-            <li></li>
+            <li>
+                <?php echo "{$match['team1']} - {$match['team2']} | {$match['point_team_1']}-{$match['point_team_2']}"; ?>
+            </li>
         <?php } ?>
     </ul>
 </body>
