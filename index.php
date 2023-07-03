@@ -48,6 +48,10 @@ $matches = [
     <title>Snack 1</title>
 </head>
 <body>
-    
+    <ul>
+        <?php foreach ($variable as $key => $value) {?>
+            # code...
+        <?php } ?>
+    </ul>
 </body>
 </html>
